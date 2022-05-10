@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+#search-bar {
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-sec {
+  width: 20%;
+  align-items: center;
+}
+
+.nology-box {
+  background-color: green;
+}
+
+.tile-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.tile {
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+img {
+  width: 200px;
+}
